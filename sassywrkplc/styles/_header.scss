@@ -1,0 +1,26 @@
+@mixin flexCenter($centerPlacement) {
+    display: flex;
+    justify-content: $centerPlacement;
+    align-items: $centerPlacement;
+}
+ul {
+    @include flexCenter(center);
+    background: $seccol;
+    font-size: $ulHeaderAndH2;
+    margin-top: $marginned+-58px;
+    li {
+        color: $seccol;
+        background: $seccol;
+        padding: 10px;
+        a {
+            color: $primcol;
+            padding: 30px;
+            text-decoration: $cleantext;
+            &:hover {
+                background: lighten($seccol, $amount: 0%);
+                border-radius: 30px;
+                color: lighten($seccol, $amount: 100%);
+            }
+        }
+    }
+}

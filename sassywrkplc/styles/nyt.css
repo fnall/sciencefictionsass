@@ -1,0 +1,115 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #616fbd;
+  font-size: 40px;
+  margin-top: -66px; }
+  ul li {
+    color: #616fbd;
+    background: #616fbd;
+    padding: 10px; }
+    ul li a {
+      color: #bec4e5;
+      padding: 30px;
+      text-decoration: none; }
+      ul li a:hover {
+        background: #616fbd;
+        border-radius: 30px;
+        color: white; }
+
+.introFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .introFlex .phil {
+    width: 7%; }
+  .introFlex .p11 {
+    width: 40%; }
+    .introFlex .p11 p {
+      font-size: 20px;
+      font-family: monospace; }
+  .introFlex .fill {
+    width: 6%; }
+  .introFlex .p12 {
+    width: 40%; }
+    .introFlex .p12 p {
+      font-size: 20px;
+      font-family: monospace; }
+  .introFlex .feel {
+    width: 7%; }
+
+.top3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .top3 .blade {
+    width: 33%; }
+    .top3 .blade h4 {
+      margin-left: 100px;
+      font-family: monospace;
+      font-size: 20px; }
+    .top3 .blade img {
+      width: 100%; }
+    .top3 .blade figcaption {
+      font-size: 20px;
+      font-family: monospace;
+      margin-top: 25px;
+      margin-bottom: 100px; }
+  .top3 .aso {
+    width: 33%; }
+    .top3 .aso h4 {
+      margin-left: 100px;
+      font-family: monospace;
+      font-size: 20px; }
+    .top3 .aso img {
+      width: 100%; }
+    .top3 .aso figcaption {
+      font-size: 20px;
+      font-family: monospace;
+      margin-top: 25px;
+      margin-bottom: 100px; }
+  .top3 .alien {
+    width: 33%; }
+    .top3 .alien h4 {
+      margin-left: 100px;
+      font-family: monospace;
+      font-size: 20px; }
+    .top3 .alien img {
+      width: 100%; }
+    .top3 .alien figcaption {
+      font-size: 20px;
+      font-family: monospace;
+      margin-top: 25px;
+      margin-bottom: 100px; }
+
+body {
+  background: #fff; }
+
+h1 {
+  color: #555;
+  text-align: center;
+  font-size: 99px;
+  background: #bec4e5;
+  line-height: 250%;
+  margin-top: -8px; }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 250%;
+  font-size: 40px;
+  font-family: monospace; }
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 250%;
+  font-size: 35px;
+  font-family: monospace;
+  background: #616fbd;
+  color: #bec4e5; }
+
+/*# sourceMappingURL=nyt.css.map */

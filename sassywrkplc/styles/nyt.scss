@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./header";
+@import "./content";
+body {
+    background: #fff;
+}
+h1 {
+    color: $fontcol;
+    text-align: center;
+    font-size: 99px;
+    background: $primcol;
+    line-height: 250%;
+    margin-top: $marginned;
+}
+h2 {
+    @include flexCenter(center);
+    line-height: 250%;
+    font-size: $ulHeaderAndH2;
+    font-family: $mainFontType;
+}
+h3 {
+    @include flexCenter(center);
+    line-height: 250%;
+    font-size: 35px;
+    font-family: $mainFontType;
+    background: $seccol;
+    color: $primcol;
+}

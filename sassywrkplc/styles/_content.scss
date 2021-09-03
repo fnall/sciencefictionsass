@@ -1,0 +1,74 @@
+@mixin pText($sizeOfText) {
+    font-size: $sizeOfText;
+    font-family: $mainFontType;
+}
+@mixin picOver($sizeOfText) {
+    margin-left: $marginop;
+    font-family: $mainFontType;
+    font-size: $sizeOfText;
+}
+.introFlex {
+    @include flexCenter(center);
+    .phil {
+        width: $fillSides;
+    }
+    .p11 {
+        width: $contentpanel;
+        p { @include pText($smallText) }
+    }
+    .fill {
+        width: $midfills;
+    }
+    .p12 {
+        width: $contentpanel;
+        p { @include pText($smallText) }
+    }
+    .feel {
+        width: $fillSides;
+    }
+}
+.top3 {
+    @include flexCenter(center);
+    .blade {
+        width: $movies;
+        h4 {
+            @include picOver($smallText);
+        }
+        img {
+            width: 100%;
+        }
+        figcaption { 
+            @include pText($smallText);
+            margin-top: 25px;
+            margin-bottom: 100px;
+        }
+    }
+    .aso {
+        width: $movies;
+        h4 {
+            @include picOver($smallText);
+        }
+        img {
+            width: 100%;
+        }
+        figcaption { 
+            @include pText($smallText);
+            margin-top: 25px;
+            margin-bottom: 100px;
+        }
+    }
+    .alien {
+        width: $movies;
+        h4 {
+            @include picOver($smallText);
+        }
+        img {
+            width: 100%;
+        }
+        figcaption { 
+            @include pText($smallText);
+            margin-top: 25px;
+            margin-bottom: 100px;
+        }
+    }
+}
